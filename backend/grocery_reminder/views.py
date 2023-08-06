@@ -15,7 +15,7 @@ def getRoutes(request):
             'description': 'Returns an array of groceries'
         },
         {
-            'Endpoint': '/grocery/id',
+            'Endpoint': '/groceries/id',
             'method': 'GET',
             'body': None,
             'description': 'Returns a single grocery item'
@@ -27,13 +27,13 @@ def getRoutes(request):
             'description': 'Creates new grocery item with data sent in post request'
         },
         {
-            'Endpoint': '/grocery/id/update/',
+            'Endpoint': '/groceries/id/update/',
             'method': 'PUT',
             'body': {'body': ""},
             'description': 'Creates an existing grocery with data sent in post request'
         },
         {
-            'Endpoint': '/grocery/id/delete/',
+            'Endpoint': '/groceries/id/delete/',
             'method': 'DELETE',
             'body': None,
             'description': 'Deletes and exiting grocery'
